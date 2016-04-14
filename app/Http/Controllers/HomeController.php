@@ -10,6 +10,12 @@ class HomeController extends Controller
     {
         //phpinfo();
         //echo "Welcome";
-        return view('errors.503');
+        //return view('errors.503');
+        return view('homepage');
+    }
+    
+    public function Login()
+    {
+        return view('login');
     }
 }
